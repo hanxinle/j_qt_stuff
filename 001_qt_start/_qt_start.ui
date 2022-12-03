@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>_qt_startClass</class>
+ <widget class="QWidget" name="_qt_startClass" >
+  <property name="objectName" >
+   <string notr="true">_qt_startClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>_qt_start</string>
+  </property>$centralwidget$
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="_qt_start.qrc"/>
+ </resources>
+ <connections/>
+</UI>
