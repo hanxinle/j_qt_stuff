@@ -1,8 +1,8 @@
 <UI version="4.0" >
- <class>_qt_startClass</class>
- <widget class="QWidget" name="_qt_startClass" >
+ <class>qt_hello_worldClass</class>
+ <widget class="QWidget" name="qt_hello_worldClass" >
   <property name="objectName" >
-   <string notr="true">_qt_startClass</string>
+   <string notr="true">qt_hello_worldClass</string>
   </property>
   <property name="geometry" >
    <rect>
@@ -13,13 +13,13 @@
    </rect>
   </property>
   <property name="windowTitle" >
-   <string>_qt_start</string>
+   <string>qt_hello_world</string>
   </property>$centralwidget$
  </widget>
  <layoutDefault spacing="6" margin="11" />
  <pixmapfunction></pixmapfunction>
  <resources>
-   <include location="_qt_start.qrc"/>
+   <include location="qt_hello_world.qrc"/>
  </resources>
  <connections/>
 </UI>

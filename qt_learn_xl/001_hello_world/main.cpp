@@ -1,10 +1,10 @@
-#include "_qt_start.h"
+#include "qt_hello_world.h"
 #include <QtWidgets/QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    _qt_start w;
+    qt_hello_world w;
     w.show();
     return a.exec();
 }
