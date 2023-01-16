@@ -7,6 +7,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001_hello_world", "001_hell
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_console", "test_console\test_console.vcxproj", "{44759DC5-AF65-4BF0-83C0-2BA90410CF36}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Qt基本架构", "01-Qt基本架构", "{345964C7-1DE8-4128-9501-330B640C120D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Qt常用类与容器", "02-Qt常用类与容器", "{67E752F3-8CAB-473D-A5D9-A308C94AA8A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Qt界面布局与基本控件", "03-Qt界面布局与基本控件", "{DDE86A6E-4C24-47DB-BADA-A8579AFC6D0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

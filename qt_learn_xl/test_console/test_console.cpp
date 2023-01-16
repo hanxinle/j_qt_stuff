@@ -1,6 +1,3 @@
-// test_console.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
-
 #include <iostream>
 using namespace std;
 class Point {
@@ -26,12 +23,15 @@ void displayPoint(const Point &p) {
 
 int main() {
 #if 1
+    cout << "if 1" << endl;
     displayPoint(Point(1));
     Point p(1);
 
 #elif 0 //#else also OK.
+    cout << "if 0 " << endl;
     displayPoint(1);
     Point p = 1;
 #endif
     return 0;
 }
+
