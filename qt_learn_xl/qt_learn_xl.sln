@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Qt常用类与容器", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Qt界面布局与基本控件", "03-Qt界面布局与基本控件", "{DDE86A6E-4C24-47DB-BADA-A8579AFC6D0A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001_qt_work_yuanli", "001_qt_work_yuanli\001_qt_work_yuanli.vcxproj", "{1592F743-C6D2-4CD1-B7A6-251760CDD238}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -35,9 +37,18 @@ Global
 		{44759DC5-AF65-4BF0-83C0-2BA90410CF36}.Release|x64.Build.0 = Release|x64
 		{44759DC5-AF65-4BF0-83C0-2BA90410CF36}.Release|x86.ActiveCfg = Release|Win32
 		{44759DC5-AF65-4BF0-83C0-2BA90410CF36}.Release|x86.Build.0 = Release|Win32
+		{1592F743-C6D2-4CD1-B7A6-251760CDD238}.Debug|x64.ActiveCfg = Debug|Win32
+		{1592F743-C6D2-4CD1-B7A6-251760CDD238}.Debug|x86.ActiveCfg = Debug|Win32
+		{1592F743-C6D2-4CD1-B7A6-251760CDD238}.Debug|x86.Build.0 = Debug|Win32
+		{1592F743-C6D2-4CD1-B7A6-251760CDD238}.Release|x64.ActiveCfg = Release|Win32
+		{1592F743-C6D2-4CD1-B7A6-251760CDD238}.Release|x86.ActiveCfg = Release|Win32
+		{1592F743-C6D2-4CD1-B7A6-251760CDD238}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1592F743-C6D2-4CD1-B7A6-251760CDD238} = {345964C7-1DE8-4128-9501-330B640C120D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C9A241F-93B2-4CB1-B229-DC1FCBB22308}

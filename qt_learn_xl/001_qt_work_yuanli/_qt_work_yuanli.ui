@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>_qt_work_yuanliClass</class>
+ <widget class="QWidget" name="_qt_work_yuanliClass" >
+  <property name="objectName" >
+   <string notr="true">_qt_work_yuanliClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>_qt_work_yuanli</string>
+  </property>$centralwidget$
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="_qt_work_yuanli.qrc"/>
+ </resources>
+ <connections/>
+</UI>
