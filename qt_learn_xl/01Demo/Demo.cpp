@@ -6,10 +6,10 @@
 Demo::Demo(QWidget *parent)
     : QWidget(parent) {
     ui.setupUi(this);
-    // No such signal QPushButton::sig1()
+    // error: No such signal QPushButton::sig1()
     // connect(ui.btn2, SIGNAL(sig1()), this, SLOT(slt1(int)));
     connect(ui.btn2, SIGNAL(clicked()), this, SLOT(slt2()));
-}
+    }
 
 Demo::~Demo() {}
 
