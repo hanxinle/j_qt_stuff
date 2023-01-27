@@ -8,7 +8,7 @@ spinbox::spinbox(QWidget *parent)
     // connect(ui.spinBox, SIGNAL(valueChanged(int)), this, SLOT(onchange(int)));
 
     /*
-    qt5 --- ok -- int the document says:
+    qt5 --- ok -- with the document says:
 
     Note: Signal valueChanged is overloaded in this class. To connect to this signal by using the function pointer
     syntax, Qt provides a convenient helper for obtaining the function pointer as shown in this example:
