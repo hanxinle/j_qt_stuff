@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_qbutton", "03_qbutton\03
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_qcheckbox", "05_qcheckbox\05_qcheckbox.vcxproj", "{4548F56D-1EB0-4B76-A35E-F8B74CA9CA6A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_spinbox", "06_spinbox\06_spinbox.vcxproj", "{B3A6329A-5269-497B-8343-C883A86AE4CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -117,6 +119,12 @@ Global
 		{4548F56D-1EB0-4B76-A35E-F8B74CA9CA6A}.Release|x64.ActiveCfg = Release|Win32
 		{4548F56D-1EB0-4B76-A35E-F8B74CA9CA6A}.Release|x86.ActiveCfg = Release|Win32
 		{4548F56D-1EB0-4B76-A35E-F8B74CA9CA6A}.Release|x86.Build.0 = Release|Win32
+		{B3A6329A-5269-497B-8343-C883A86AE4CD}.Debug|x64.ActiveCfg = Debug|Win32
+		{B3A6329A-5269-497B-8343-C883A86AE4CD}.Debug|x86.ActiveCfg = Debug|Win32
+		{B3A6329A-5269-497B-8343-C883A86AE4CD}.Debug|x86.Build.0 = Debug|Win32
+		{B3A6329A-5269-497B-8343-C883A86AE4CD}.Release|x64.ActiveCfg = Release|Win32
+		{B3A6329A-5269-497B-8343-C883A86AE4CD}.Release|x86.ActiveCfg = Release|Win32
+		{B3A6329A-5269-497B-8343-C883A86AE4CD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -133,6 +141,7 @@ Global
 		{6458F00D-28C4-407F-8E75-A6FC110D591A} = {DDE86A6E-4C24-47DB-BADA-A8579AFC6D0A}
 		{D352A95A-2FF4-48A7-8FC4-71DCDAD85F8D} = {DDE86A6E-4C24-47DB-BADA-A8579AFC6D0A}
 		{225B5FE3-98A7-4A7C-A175-5020950CC82E} = {DDE86A6E-4C24-47DB-BADA-A8579AFC6D0A}
+		{4548F56D-1EB0-4B76-A35E-F8B74CA9CA6A} = {DDE86A6E-4C24-47DB-BADA-A8579AFC6D0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C9A241F-93B2-4CB1-B229-DC1FCBB22308}
