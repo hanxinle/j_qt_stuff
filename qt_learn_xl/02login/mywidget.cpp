@@ -15,8 +15,6 @@ mywidget::mywidget(QWidget *parent)
     btn_login_ = new QPushButton(QString::fromLocal8Bit("Login"));
     btn_regist_ = new QPushButton(QString::fromLocal8Bit("Regist"));
 
-
-
     QHBoxLayout *h1 = new QHBoxLayout;
     h1->addWidget(user_name_);
     h1->addWidget(input_name_);
@@ -28,13 +26,11 @@ mywidget::mywidget(QWidget *parent)
     QHBoxLayout *h3 = new QHBoxLayout;
     h3->addWidget(btn_login_);
     h3->addWidget(btn_regist_);
-    
+
     QVBoxLayout *v = new QVBoxLayout(this); // 忘掉 this，找了一晚上错误.
     v->addLayout(h1);
     v->addLayout(h2);
     v->addLayout(h3);
- 
-
 }
 
-    mywidget::~mywidget() {}
+mywidget::~mywidget() {}
