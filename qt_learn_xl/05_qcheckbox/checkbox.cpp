@@ -13,6 +13,6 @@ void checkbox::slot_func(int state) {
     if (state == Qt::Checked) {
         ui.lineEdit->setText("checked");
     } else {
-        ui.lineEdit->setText("not checked");
+        ui.lineEdit->setText("un_checked");
     }
 }
