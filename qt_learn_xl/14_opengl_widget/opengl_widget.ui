@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>opengl_widgetClass</class>
+ <widget class="QWidget" name="opengl_widgetClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>opengl_widget</string>
+  </property>
+  <widget class="myopenglwidget" name="openGLWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>401</width>
+     <height>311</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>myopenglwidget</class>
+   <extends>QOpenGLWidget</extends>
+   <header>myopenglwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="opengl_widget.qrc"/>
+ </resources>
+ <connections/>
+</ui>
