@@ -23,24 +23,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="scroll_bar.qrc">
+    <QtRcc Include="list_widget.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
-    <QtUic Include="scroll_bar.ui">
+    <QtUic Include="list_widget.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtMoc Include="scroll_bar.h">
+    <QtMoc Include="list_widget.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClCompile Include="scroll_bar.cpp">
+    <ClCompile Include="list_widget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <None Include="09_scroll_bar.ico">
-      <Filter>Resource Files</Filter>
-    </None>
-    <ResourceCompile Include="09_scroll_bar.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

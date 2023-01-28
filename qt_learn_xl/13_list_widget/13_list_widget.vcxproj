@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{63AE6744-114B-4E39-9BD0-949AFAFF5F6C}</ProjectGuid>
+    <ProjectGuid>{40E2C095-8134-44D9-BDA6-9FE4E4D46146}</ProjectGuid>
     <Keyword>QtVS_v304</Keyword>
     <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">10.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">10.0.22000.0</WindowsTargetPlatformVersion>
@@ -83,17 +83,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <QtRcc Include="tabwidget.qrc" />
-    <QtUic Include="tabwidget.ui" />
-    <QtMoc Include="tabwidget.h" />
-    <ClCompile Include="tab5.cpp" />
-    <ClCompile Include="tabwidget.cpp" />
+    <QtRcc Include="list_widget.qrc" />
+    <QtUic Include="list_widget.ui" />
+    <QtMoc Include="list_widget.h" />
+    <ClCompile Include="list_widget.cpp" />
     <ClCompile Include="main.cpp" />
-    <None Include="12_tabwidget.ico" />
-    <ResourceCompile Include="12_tabwidget.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <QtMoc Include="tab5.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
