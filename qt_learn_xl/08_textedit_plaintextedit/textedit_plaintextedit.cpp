@@ -15,17 +15,15 @@ textedit_plaintextedit::textedit_plaintextedit(QWidget *parent)
     // btn——zoomin,zoomout
     connect(ui.btn_zoomin, &QPushButton::clicked, this, [=]() {
         ui.plainTextEdit->zoomIn(2);
-        //ui.plainTextEdit->zoomIn(2);
+        // ui.plainTextEdit->zoomIn(2);
     });
     connect(ui.btn_zoomout, &QPushButton::clicked, this, [this]() {
         ui.plainTextEdit->zoomOut(2);
-        //ui.textEdit->zoomOut(1);
+        // ui.textEdit->zoomOut(1);
     });
-    
+
     connect(ui.comboBox, SIGNAL(currentIndexChanged(int)), this, SLOT(slt_onText(int)));
-    connect(ui.btn_clear2,&QPushButton::clicked,this,[=](){
-        ui.textEdit->clear();
-        });
+    connect(ui.btn_clear2, &QPushButton::clicked, this, [=]() { ui.textEdit->clear(); });
     connect(ui.btn_clear, &QPushButton::clicked, this, &textedit_plaintextedit::slt_onClear);
     connect(ui.btn_get, &QPushButton::clicked, this, &textedit_plaintextedit::slt_onGet);
 }
