@@ -33,8 +33,9 @@ list_widget::list_widget(QWidget *parent)
 
     // 下面都是 OK 的,取决于自己要用什么对象完成操作.
     // 以此来决定使用的参数类型，进而选择信号类型.
-     connect(ui.listWidget, &QListWidget::currentRowChanged, this, [=](int index) {
+    connect(ui.listWidget, &QListWidget::currentRowChanged, this, [=](int index) {
         qDebug() << index;
+        ui.stackedWidget->setCurrentIndex(index);
     });
 
     connect(ui.listWidget, &QListWidget::currentTextChanged, this, [=](const QString &str) { qDebug() << str; });
