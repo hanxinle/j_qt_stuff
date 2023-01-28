@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_textedit_plaintextedit",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_scroll_bar", "09_scroll_bar\09_scroll_bar.vcxproj", "{EDCDF17D-3DE5-4CCA-BA23-01FD95831CDE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_process_bar", "10_process_bar\10_process_bar.vcxproj", "{B42B4799-4DCA-42DE-989A-7697363310A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -149,6 +151,12 @@ Global
 		{EDCDF17D-3DE5-4CCA-BA23-01FD95831CDE}.Release|x64.ActiveCfg = Release|Win32
 		{EDCDF17D-3DE5-4CCA-BA23-01FD95831CDE}.Release|x86.ActiveCfg = Release|Win32
 		{EDCDF17D-3DE5-4CCA-BA23-01FD95831CDE}.Release|x86.Build.0 = Release|Win32
+		{B42B4799-4DCA-42DE-989A-7697363310A2}.Debug|x64.ActiveCfg = Debug|Win32
+		{B42B4799-4DCA-42DE-989A-7697363310A2}.Debug|x86.ActiveCfg = Debug|Win32
+		{B42B4799-4DCA-42DE-989A-7697363310A2}.Debug|x86.Build.0 = Debug|Win32
+		{B42B4799-4DCA-42DE-989A-7697363310A2}.Release|x64.ActiveCfg = Release|Win32
+		{B42B4799-4DCA-42DE-989A-7697363310A2}.Release|x86.ActiveCfg = Release|Win32
+		{B42B4799-4DCA-42DE-989A-7697363310A2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -169,6 +177,7 @@ Global
 		{B3A6329A-5269-497B-8343-C883A86AE4CD} = {DDE86A6E-4C24-47DB-BADA-A8579AFC6D0A}
 		{A4AC8EC2-9B03-447A-8E8C-AC3F1FB0DA17} = {DDE86A6E-4C24-47DB-BADA-A8579AFC6D0A}
 		{164B2EAB-14E6-4791-A444-83D5CA71F0A8} = {DDE86A6E-4C24-47DB-BADA-A8579AFC6D0A}
+		{EDCDF17D-3DE5-4CCA-BA23-01FD95831CDE} = {DDE86A6E-4C24-47DB-BADA-A8579AFC6D0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C9A241F-93B2-4CB1-B229-DC1FCBB22308}
