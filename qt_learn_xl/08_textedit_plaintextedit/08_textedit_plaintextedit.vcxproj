@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B3A6329A-5269-497B-8343-C883A86AE4CD}</ProjectGuid>
+    <ProjectGuid>{164B2EAB-14E6-4791-A444-83D5CA71F0A8}</ProjectGuid>
     <Keyword>QtVS_v304</Keyword>
     <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">10.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">10.0.22000.0</WindowsTargetPlatformVersion>
@@ -83,11 +83,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <QtRcc Include="spinbox.qrc" />
-    <QtUic Include="spinbox.ui" />
-    <QtMoc Include="spinbox.h" />
-    <ClCompile Include="spinbox.cpp" />
+    <QtRcc Include="textedit_plaintextedit.qrc" />
+    <QtUic Include="textedit_plaintextedit.ui" />
+    <QtMoc Include="textedit_plaintextedit.h" />
+    <ClCompile Include="textedit_plaintextedit.cpp" />
     <ClCompile Include="main.cpp" />
+    <None Include="08_textedit_plaintextedit.ico" />
+    <ResourceCompile Include="08_textedit_plaintextedit.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
