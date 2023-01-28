@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_combobox", "07_combobox\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_textedit_plaintextedit", "08_textedit_plaintextedit\08_textedit_plaintextedit.vcxproj", "{164B2EAB-14E6-4791-A444-83D5CA71F0A8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_scroll_bar", "09_scroll_bar\09_scroll_bar.vcxproj", "{EDCDF17D-3DE5-4CCA-BA23-01FD95831CDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,12 @@ Global
 		{164B2EAB-14E6-4791-A444-83D5CA71F0A8}.Release|x64.ActiveCfg = Release|Win32
 		{164B2EAB-14E6-4791-A444-83D5CA71F0A8}.Release|x86.ActiveCfg = Release|Win32
 		{164B2EAB-14E6-4791-A444-83D5CA71F0A8}.Release|x86.Build.0 = Release|Win32
+		{EDCDF17D-3DE5-4CCA-BA23-01FD95831CDE}.Debug|x64.ActiveCfg = Debug|Win32
+		{EDCDF17D-3DE5-4CCA-BA23-01FD95831CDE}.Debug|x86.ActiveCfg = Debug|Win32
+		{EDCDF17D-3DE5-4CCA-BA23-01FD95831CDE}.Debug|x86.Build.0 = Debug|Win32
+		{EDCDF17D-3DE5-4CCA-BA23-01FD95831CDE}.Release|x64.ActiveCfg = Release|Win32
+		{EDCDF17D-3DE5-4CCA-BA23-01FD95831CDE}.Release|x86.ActiveCfg = Release|Win32
+		{EDCDF17D-3DE5-4CCA-BA23-01FD95831CDE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +168,7 @@ Global
 		{4548F56D-1EB0-4B76-A35E-F8B74CA9CA6A} = {DDE86A6E-4C24-47DB-BADA-A8579AFC6D0A}
 		{B3A6329A-5269-497B-8343-C883A86AE4CD} = {DDE86A6E-4C24-47DB-BADA-A8579AFC6D0A}
 		{A4AC8EC2-9B03-447A-8E8C-AC3F1FB0DA17} = {DDE86A6E-4C24-47DB-BADA-A8579AFC6D0A}
+		{164B2EAB-14E6-4791-A444-83D5CA71F0A8} = {DDE86A6E-4C24-47DB-BADA-A8579AFC6D0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C9A241F-93B2-4CB1-B229-DC1FCBB22308}
