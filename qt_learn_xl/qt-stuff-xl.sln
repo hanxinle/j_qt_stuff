@@ -53,6 +53,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_list_widget_stackedWidge
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_opengl_widget", "14_opengl_widget\14_opengl_widget.vcxproj", "{8CFA3A5D-3305-4696-8821-67EF609B066C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Qt菜单的使用", "04-Qt菜单的使用", "{32B1FD01-A506-49DC-B6BA-1F716B8538D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_menu", "01_menu\01_menu.vcxproj", "{6952DB73-5B64-447B-BB29-9CFCBA251939}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -189,6 +193,12 @@ Global
 		{8CFA3A5D-3305-4696-8821-67EF609B066C}.Release|x64.ActiveCfg = Release|Win32
 		{8CFA3A5D-3305-4696-8821-67EF609B066C}.Release|x86.ActiveCfg = Release|Win32
 		{8CFA3A5D-3305-4696-8821-67EF609B066C}.Release|x86.Build.0 = Release|Win32
+		{6952DB73-5B64-447B-BB29-9CFCBA251939}.Debug|x64.ActiveCfg = Debug|Win32
+		{6952DB73-5B64-447B-BB29-9CFCBA251939}.Debug|x86.ActiveCfg = Debug|Win32
+		{6952DB73-5B64-447B-BB29-9CFCBA251939}.Debug|x86.Build.0 = Debug|Win32
+		{6952DB73-5B64-447B-BB29-9CFCBA251939}.Release|x64.ActiveCfg = Release|Win32
+		{6952DB73-5B64-447B-BB29-9CFCBA251939}.Release|x86.ActiveCfg = Release|Win32
+		{6952DB73-5B64-447B-BB29-9CFCBA251939}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
