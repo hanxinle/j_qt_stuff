@@ -30,7 +30,7 @@ void right_menu2::contextMenuEvent(QContextMenuEvent *evnet) {
     pMenu->addMenu(pMenu1);
     pMenu->addSeparator();
 
-    pMenu->setStyleSheet("QMenu{font:20px;color:blue;}");
+    pMenu->setStyleSheet("QMenu{font:12px;color:blue;}");
 
     pMenu->move(cursor().pos());
     pMenu->show();
