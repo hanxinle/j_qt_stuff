@@ -65,6 +65,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_right_menu", "04_right_m
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_right_menu2", "05_right_menu2\05_right_menu2.vcxproj", "{FC092FD6-6750-47CF-B6EA-006A5171BC1E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-qss与美化渲染", "05-qss与美化渲染", "{374EB9A0-3BFF-4439-875E-59F43A341D52}"
+	ProjectSection(SolutionItems) = preProject
+		qss简介与使用.md = qss简介与使用.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
