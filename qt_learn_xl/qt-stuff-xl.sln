@@ -70,6 +70,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-qss与美化渲染", "05
 		qss简介与使用.md = qss简介与使用.md
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_third_qss", "01_third_qss\01_third_qss.vcxproj", "{7B6FCB1C-CAD0-4EAD-B28E-9255BB59C70F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -236,6 +238,12 @@ Global
 		{FC092FD6-6750-47CF-B6EA-006A5171BC1E}.Release|x64.ActiveCfg = Release|Win32
 		{FC092FD6-6750-47CF-B6EA-006A5171BC1E}.Release|x86.ActiveCfg = Release|Win32
 		{FC092FD6-6750-47CF-B6EA-006A5171BC1E}.Release|x86.Build.0 = Release|Win32
+		{7B6FCB1C-CAD0-4EAD-B28E-9255BB59C70F}.Debug|x64.ActiveCfg = Debug|Win32
+		{7B6FCB1C-CAD0-4EAD-B28E-9255BB59C70F}.Debug|x86.ActiveCfg = Debug|Win32
+		{7B6FCB1C-CAD0-4EAD-B28E-9255BB59C70F}.Debug|x86.Build.0 = Debug|Win32
+		{7B6FCB1C-CAD0-4EAD-B28E-9255BB59C70F}.Release|x64.ActiveCfg = Release|Win32
+		{7B6FCB1C-CAD0-4EAD-B28E-9255BB59C70F}.Release|x86.ActiveCfg = Release|Win32
+		{7B6FCB1C-CAD0-4EAD-B28E-9255BB59C70F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
