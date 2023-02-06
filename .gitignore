@@ -3,8 +3,7 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-
-qt_learn_xl/test_console/
+test_console/
 # User-specific files
 *.rsuser
 *.suo
