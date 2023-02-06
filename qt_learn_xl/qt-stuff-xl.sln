@@ -72,6 +72,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-qss与美化渲染", "05
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_third_qss", "01_third_qss\01_third_qss.vcxproj", "{7B6FCB1C-CAD0-4EAD-B28E-9255BB59C70F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_qq_pcmanager", "02_qq_pcmanager\02_qq_pcmanager.vcxproj", "{E6821F5B-36B4-4CCD-84CB-1373D28B2C1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -244,6 +246,12 @@ Global
 		{7B6FCB1C-CAD0-4EAD-B28E-9255BB59C70F}.Release|x64.ActiveCfg = Release|Win32
 		{7B6FCB1C-CAD0-4EAD-B28E-9255BB59C70F}.Release|x86.ActiveCfg = Release|Win32
 		{7B6FCB1C-CAD0-4EAD-B28E-9255BB59C70F}.Release|x86.Build.0 = Release|Win32
+		{E6821F5B-36B4-4CCD-84CB-1373D28B2C1C}.Debug|x64.ActiveCfg = Debug|Win32
+		{E6821F5B-36B4-4CCD-84CB-1373D28B2C1C}.Debug|x86.ActiveCfg = Debug|Win32
+		{E6821F5B-36B4-4CCD-84CB-1373D28B2C1C}.Debug|x86.Build.0 = Debug|Win32
+		{E6821F5B-36B4-4CCD-84CB-1373D28B2C1C}.Release|x64.ActiveCfg = Release|Win32
+		{E6821F5B-36B4-4CCD-84CB-1373D28B2C1C}.Release|x86.ActiveCfg = Release|Win32
+		{E6821F5B-36B4-4CCD-84CB-1373D28B2C1C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
