@@ -4,7 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 
-test_console/
+qt_learn_xl/test_console/
 # User-specific files
 *.rsuser
 *.suo
