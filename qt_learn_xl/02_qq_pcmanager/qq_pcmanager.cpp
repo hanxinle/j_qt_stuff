@@ -67,14 +67,14 @@ qq_pcmanager::qq_pcmanager(QWidget *parent)
 
 qq_pcmanager::~qq_pcmanager() {}
 
-void qq_pcmanager::mouseMoveEvent(QMouseEvent *event) {
-    this->move(event->globalPos() - m_d_pos);
-}
-
 void qq_pcmanager::mousePressEvent(QMouseEvent *event) {
     m_window_pos = this->pos(); // 窗口位置.
     m_mouse_pos = event->globalPos(); // 鼠标位置.
     m_d_pos = m_mouse_pos - m_window_pos; //鼠标要移动的位置.
+}
+
+void qq_pcmanager::mouseMoveEvent(QMouseEvent *event) {
+    this->move(event->globalPos() - m_d_pos);
 }
 
 void qq_pcmanager::showImage(QLabel *plabel, QString str) {
