@@ -80,6 +80,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_simple_file", "01_simple
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_sig_slot_library", "02_sig_slot_library\02_sig_slot_library.vcxproj", "{AD76ED22-789A-4C57-9604-1672255DD1E4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_no_board_widiget", "03_no_board_widiget\03_no_board_widiget.vcxproj", "{84EA17FA-F2A5-4CBB-A9AA-FF70B107B1BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -270,6 +272,12 @@ Global
 		{AD76ED22-789A-4C57-9604-1672255DD1E4}.Release|x64.ActiveCfg = Release|Win32
 		{AD76ED22-789A-4C57-9604-1672255DD1E4}.Release|x86.ActiveCfg = Release|Win32
 		{AD76ED22-789A-4C57-9604-1672255DD1E4}.Release|x86.Build.0 = Release|Win32
+		{84EA17FA-F2A5-4CBB-A9AA-FF70B107B1BF}.Debug|x64.ActiveCfg = Debug|Win32
+		{84EA17FA-F2A5-4CBB-A9AA-FF70B107B1BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{84EA17FA-F2A5-4CBB-A9AA-FF70B107B1BF}.Debug|x86.Build.0 = Debug|Win32
+		{84EA17FA-F2A5-4CBB-A9AA-FF70B107B1BF}.Release|x64.ActiveCfg = Release|Win32
+		{84EA17FA-F2A5-4CBB-A9AA-FF70B107B1BF}.Release|x86.ActiveCfg = Release|Win32
+		{84EA17FA-F2A5-4CBB-A9AA-FF70B107B1BF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -304,6 +312,7 @@ Global
 		{7B6FCB1C-CAD0-4EAD-B28E-9255BB59C70F} = {374EB9A0-3BFF-4439-875E-59F43A341D52}
 		{E6821F5B-36B4-4CCD-84CB-1373D28B2C1C} = {374EB9A0-3BFF-4439-875E-59F43A341D52}
 		{E3B3C7F4-BA1E-48E5-92CB-57B8B440FB16} = {5C6856AC-754D-423A-913B-9A3F647953EA}
+		{AD76ED22-789A-4C57-9604-1672255DD1E4} = {5C6856AC-754D-423A-913B-9A3F647953EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C9A241F-93B2-4CB1-B229-DC1FCBB22308}
