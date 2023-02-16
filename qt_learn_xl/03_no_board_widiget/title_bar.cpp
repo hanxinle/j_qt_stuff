@@ -37,17 +37,16 @@ void TitleBar::on_click() {
         if (pwindow->isMaximized()) {
             pwindow->showNormal();
             btn_max_->setStyleSheet(
-                "QPushButton{background-image:url(:/LessWidgetPro/resources/titlebar/normal.svg);border:none}"
+                "QPushButton{background-image:url(:/icons/resources/titlebar/normal.svg);border:none}"
                 "QPushButton:hover{"
                 "background-color:rgb(99, 99, 99);"
-                "background-image:url(:/LessWidgetPro/resources/titlebar/normal_hover.svg);border:none;}");
+                "background-image:url(:/icons/resources/titlebar/normal_hover.svg);border:none;}");
         } else {
             pwindow->showMaximized();
-            btn_max_->setStyleSheet(
-                "QPushButton{background-image:url(:/LessWidgetPro/resources/titlebar/max.svg);border:none}"
-                "QPushButton:hover{"
-                "background-color:rgb(99, 99, 99);"
-                "background-image:url(:/LessWidgetPro/resources/titlebar/max_hover.svg);border:none;}");
+            btn_max_->setStyleSheet("QPushButton{background-image:url(:/icons/resources/titlebar/max.svg);border:none}"
+                                    "QPushButton:hover{"
+                                    "background-color:rgb(99, 99, 99);"
+                                    "background-image:url(:/icons/resources/titlebar/max_hover.svg);border:none;}");
         }
     } else if (pbutton == btn_close_) {
         emit sig_close();
