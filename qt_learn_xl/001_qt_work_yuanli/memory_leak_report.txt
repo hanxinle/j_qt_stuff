@@ -1,27 +1,4 @@
 Visual Leak Detector Version 2.5.1 installed.
-    Outputting the report to the debugger and to I:\qt-stuff\qt_learn_xl\001_qt_work_yuanli\memory_leak_report.txt
-WARNING: Visual Leak Detector detected memory leaks!
----------- Block 4 at 0x006E19B8: 24 bytes ----------
-  Leak Hash: 0xFCFD9EF1, Count: 1, Total 24 bytes
-  Call Stack (TID 23804):
-    ucrtbased.dll!malloc()
-    D:\a\_work\1\s\src\vctools\crt\vcstartup\src\heap\new_scalar.cpp (35): 001_qt_work_yuanli.exe!operator new() + 0x9 bytes
-    I:\qt-stuff\qt_learn_xl\001_qt_work_yuanli\_qt_work_yuanli.cpp (13): 001_qt_work_yuanli.exe!_qt_work_yuanli::_qt_work_yuanli() + 0x7 bytes
-    I:\qt-stuff\qt_learn_xl\001_qt_work_yuanli\main.cpp (20): 001_qt_work_yuanli.exe!main() + 0xA bytes
-    c:\users\qt\work\qt\qtbase\src\winmain\qtmain_win.cpp (97): 001_qt_work_yuanli.exe!WinMain() + 0xD bytes
-    D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl (107): 001_qt_work_yuanli.exe!invoke_main()
-    D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl (288): 001_qt_work_yuanli.exe!__scrt_common_main_seh() + 0x5 bytes
-    D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl (331): 001_qt_work_yuanli.exe!__scrt_common_main()
-    D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_winmain.cpp (17): 001_qt_work_yuanli.exe!WinMainCRTStartup()
-    KERNEL32.DLL!BaseThreadInitThunk() + 0x19 bytes
-    ntdll.dll!RtlGetAppContainerNamedObjectPath() + 0x11E bytes
-    ntdll.dll!RtlGetAppContainerNamedObjectPath() + 0xEE bytes
-  Data:
-    18 B4 DA 00    98 D0 6D 00    FF FF FF FF    00 00 00 00     ......m. ........
-    00 00 00 00    C4 CD CD CD                                   ........ ........
-
-
-Visual Leak Detector detected 1 memory leak (60 bytes).
-Largest number used: 253 bytes.
-Total allocations: 253 bytes.
+    Outputting the report to the debugger and to I:\J_qt-stuff\qt_learn_xl\001_qt_work_yuanli\memory_leak_report.txt
+No memory leaks detected.
 Visual Leak Detector is now exiting.
